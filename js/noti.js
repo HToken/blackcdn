@@ -9,7 +9,7 @@ if(hours == 6)msg = "清晨好，这么早就来网站啦";
 if(hours == 7)msg = "新的一天又开始了，祝你过得快乐";
 if(hours == 8 || hours == 9 || hours == 10 )
 msg = "已完成全站更新，敬请体验";
-if(hours == 11)msg = "有新通知，微信搜索公众号：顶空";
+if(hours == 11)msg = "请记住本站网址 www.dikotv.com";
 if(hours == 12)msg = "该吃午饭啦！有什么好吃的~";
 if(hours == 13 || hours == 14)msg = "中午睡一觉，下午才有精气神";
 if(hours == 15 || hours == 16 || hours == 17 )
