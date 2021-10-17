@@ -19,18 +19,18 @@ a:hover{text-decoration:none;color:#ff5f00;}
 input{font-family:Helvetica,Arial,Microsoft Yahei,sans-serif;;font-size: 0.35rem;}
 input,textarea{-webkit-appearance: none;border-radius:0;}
 
-@font-face {font-family: 'iconfont';src: url('https://cdn.jsdelivr.net/gh/vikinglzh/blackcdn2@latest/fonts/member/iconfont.eot');src: url('https://cdn.jsdelivr.net/gh/vikinglzh/blackcdn2@latest/fonts/member/iconfont.eot?#iefix') format('embedded-opentype'),url('https://cdn.jsdelivr.net/gh/vikinglzh/blackcdn2@latest/fonts/member/iconfont.woff2') format('woff2'),url('https://cdn.jsdelivr.net/gh/vikinglzh/blackcdn2@latest/fonts/member/iconfont.woff') format('woff'),url('https://cdn.jsdelivr.net/gh/vikinglzh/blackcdn2@latest/fonts/member/iconfont.ttf') format('truetype'),url('https://cdn.jsdelivr.net/gh/vikinglzh/blackcdn2@latest/fonts/member/iconfont.svg#iconfont') format('svg');}
+@font-face {font-family: 'iconfont';src: url('https://cdn.jsdelivr.net/gh/HToken/blackcdn@latest/fonts/member/iconfont.eot');src: url('https://cdn.jsdelivr.net/gh/HToken/blackcdn@latest/fonts/member/iconfont.eot?#iefix') format('embedded-opentype'),url('https://cdn.jsdelivr.net/gh/HToken/blackcdn@latest/fonts/member/iconfont.woff2') format('woff2'),url('https://cdn.jsdelivr.net/gh/HToken/blackcdn@latest/fonts/member/iconfont.woff') format('woff'),url('https://cdn.jsdelivr.net/gh/HToken/blackcdn@latest/fonts/member/iconfont.ttf') format('truetype'),url('https://cdn.jsdelivr.net/gh/HToken/blackcdn@latest/fonts/member/iconfont.svg#iconfont') format('svg');}
 .iconfont {font-family: "iconfont" !important;font-style: normal;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;}
 
 input::-webkit-input-placeholder{font-size: 0.35rem;color: #ccc;}
 input::-moz-placeholder{font-size: 0.35rem;color: #ccc;}
 input:-ms-input-placeholder{font-size: 0.35rem;color: #ccc;}
 
-select {border: solid 1px #000;appearance:none;-moz-appearance:none;-webkit-appearance:none;background: url("https://cdn.jsdelivr.net/gh/vikinglzh/blackcdn2@latest/img/member/arrow.png") no-repeat scroll right center transparent;padding-right: 0.35rem;}
+select {border: solid 1px #000;appearance:none;-moz-appearance:none;-webkit-appearance:none;background: url("https://cdn.jsdelivr.net/gh/HToken/blackcdn@latest/img/member/arrow.png") no-repeat scroll right center transparent;padding-right: 0.35rem;}
 select::-ms-expand { display: none; }
 
 .xz-box input {float: left;display: block;width: 0.3rem;height: 0.3rem;border: 1px solid #aaa;margin: 0;border-radius: 0.05rem;}
-.xz-box input:checked {background: url(https://cdn.jsdelivr.net/gh/vikinglzh/blackcdn2@latest/img/checked.png) no-repeat #ff5f00;background-size: cover;border: 1px solid #ff5f00;}
+.xz-box input:checked {background: url(https://cdn.jsdelivr.net/gh/HToken/blackcdn@latest/img/checked.png) no-repeat #ff5f00;background-size: cover;border: 1px solid #ff5f00;}
 
 /* 左侧会员导航菜单 */
 #member{width:28.75rem;margin:0.5rem auto;font-size:0.35rem;}
@@ -40,7 +40,7 @@ select::-ms-expand { display: none; }
 #member .m-nav .btn-right{float: right;}
 #member .m-nav .mb-title{font-size: 0.4rem;color: #333;width: 80%;overflow: hidden;display: block;margin: 0 10%;}
 #member #left{width:30%;float:left;}
-#member #left .tou{overflow: hidden;background: #fff;padding:1rem 0.5rem;background-color: #fff6f1;background-image: url(https://cdn.jsdelivr.net/gh/vikinglzh/blackcdn2@latest/img/user_bg.jpg);background-position: bottom;background-size: 100%;background-repeat: no-repeat;}
+#member #left .tou{overflow: hidden;background: #fff;padding:1rem 0.5rem;background-color: #fff6f1;background-image: url(https://cdn.jsdelivr.net/gh/HToken/blackcdn@latest/img/user_bg.jpg);background-position: bottom;background-size: 100%;background-repeat: no-repeat;}
 #member #left .tou .tou-left{margin: 0 auto;text-align: center;}
 #member #left .tou img{width:1.6rem;height:1.6rem;border-radius: 100%;border: 1px #f1f1f1 solid;}
 #member #left .tou .tou-right{padding: 0.3rem 0 0 0;text-align: center;}
@@ -156,7 +156,7 @@ select::-ms-expand { display: none; }
 
 .data__list .xz-box {float: left;padding-right: 0.375rem;margin: 1.2rem 0;}
 .data__list .data__img {width: 2rem;float: left;}
-.data__list .data__thumb {position: relative;display: block;height: 2.75rem;background: url(https://cdn.jsdelivr.net/gh/vikinglzh/blackcdn2@latest/img/load.gif) no-repeat;background-position: 50% 50%;background-size: cover;}
+.data__list .data__thumb {position: relative;display: block;height: 2.75rem;background: url(https://cdn.jsdelivr.net/gh/HToken/blackcdn@latest/img/load.gif) no-repeat;background-position: 50% 50%;background-size: cover;}
 .data__list .data__txt {float: left;padding-left: 0.3rem;margin: 0.3rem 0;}
 .data__list li {display: block;overflow: hidden;padding: 0.25rem 0;}
 .data__list li h4 a{display: block;font-size: 0.4rem;color: #333;margin-bottom: 0.1rem;text-overflow: ellipsis;overflow: hidden;white-space: nowrap;}
@@ -207,7 +207,7 @@ input, button, select, textarea {outline: none;font-family: Helvetica,Arial,Micr
 .m-hi {width: 30%;height: 1.125rem;}
 .btn-brand {display: inline-block;background: #ff5f00;color: #fff!important;border: none;cursor: pointer;padding: 0.1rem 0.25rem;border-radius: 0.075rem;text-align: center;width: 1.2rem;margin: 1rem 0;}
 .data__del {display: block;height: 2.75rem;float: right;}
-.i-pers {background: url(https://cdn.jsdelivr.net/gh/vikinglzh/blackcdn2@latest/images/member/pers.png) no-repeat;}
+.i-pers {background: url(https://cdn.jsdelivr.net/gh/HToken/blackcdn@latest/images/member/pers.png) no-repeat;}
 
 /*register member*/
 .user-bg{background: #fff;}
