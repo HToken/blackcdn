@@ -1,10 +1,4 @@
 
-function isMatch(str1) {
-    var s = 'localhost,www.dikotv.com,dikotv.com,www.dikotv1.com,dikotv1.com'
-    return s.indexOf(str1) != -1;
-    }
-if (!isMatch(window.location.hostname)) { window.location.href = "https://www.dikotv.com"; }
-
 console.log("\n %c 顶空影视 %c https://www.dikotv.com \n\n","color: #fadfa3; background: #030307; padding:5px 0;","background: #fadfa3; padding:5px 0;")
 
 var diko = {
@@ -253,7 +247,7 @@ var diko = {
 				$(".cans").qrcode({
 					width:120,
 					height:120,
-					text:'https://wx-jump-dk-1259356818.cos-website.ap-nanjing.myqcloud.com/?id='+encodeURI(diko.browser.url)
+					text:''+encodeURI(diko.browser.url)
 				});  
 				function convertCanvasToImage(canvas) {  
 					var image = new Image();  

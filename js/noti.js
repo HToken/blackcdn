@@ -14,7 +14,7 @@ if(hours == 12)msg = "该吃午饭啦！有什么好吃的~";
 if(hours == 13 || hours == 14)msg = "中午睡一觉，下午才有精气神";
 if(hours == 15 || hours == 16 || hours == 17 )
 msg = "请记住本站网址 www.dikotv.com";
-if(hours == 18 || hours == 19)msg = "找不到想看的片？留言版告诉我吧";
+if(hours == 18 || hours == 19)msg = "本站网址 dikotv.com 备用 dikotv1.com ";
 if(hours == 20 || hours == 21 || hours == 22 )
 msg = "请记住本站备用网址 www.dikotv1.com";
 if(hours == 23)msg = "早点休息吧，明天见。_。";
