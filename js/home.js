@@ -143,7 +143,7 @@ var MAC={
     },
     'Qrcode':{
         'Init':function(){
-            $('.mac_qrcode').attr('src','//my.tv.sohu.com/user/a/wvideo/getQRCode.do?text=https://wx-jump-dk-1259356818.cos-website.ap-nanjing.myqcloud.com/?id=' + MAC.Url);
+            $('.mac_qrcode').attr('src','//my.tv.sohu.com/user/a/wvideo/getQRCode.do?text=' + MAC.Url);
         }
     },
     'Shorten': {
@@ -155,7 +155,7 @@ var MAC={
         },
         'Get':function(url,call){
             url=url||location.href;
-            MAC.Ajax('https://eps.gs/api/create_short_url?api=epsgs&url='+ encodeURIComponent(url),'get','jsonp','',function(r){
+            MAC.Ajax('https://api.uomg.com/api/long2dwz?dwzapi=urlcn&url='+ encodeURIComponent(url),'get','jsonp','',function(r){
                 if (r.error == 0) {
                     if($('.mac_shorten').length>0) {
                         $('.mac_shorten').val(r.data.url_short);
