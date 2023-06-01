@@ -24,7 +24,7 @@
         ele: "body",
         offset: {
           from: "top",
-          amount: 20
+          amount: 40
         },
         align: "right",
         width: 250,
